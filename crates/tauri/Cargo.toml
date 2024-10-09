@@ -203,6 +203,11 @@ name = "helloworld"
 path = "../../examples/helloworld/main.rs"
 
 [[example]]
+name = "tray"
+path = "../../examples/tray/main.rs"
+required-features = ["tray-icon"]
+
+[[example]]
 name = "multiwebview"
 path = "../../examples/multiwebview/main.rs"
 required-features = ["unstable"]
